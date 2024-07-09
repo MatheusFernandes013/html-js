@@ -15,16 +15,15 @@ form {
     margin-top: 40px;
 }
 
-input, textarea, button {
+input, button {
     display: block;
     padding: 8px;
     margin-bottom: 8px;
     width: 100%;
-    resize: none;
 }
 
 button {
-    background-color: #2ecc71;
+    background-color: #0b07fc;
     border: none;
     text-transform: uppercase;
     color: #fff;
@@ -35,7 +34,7 @@ button {
 }
 
 button:hover {
-    background-color: #27ae60;
+    background-color: #18019e;
 }
 
 .success-message {
@@ -52,10 +51,4 @@ button:hover {
     display: none;
     font-size: 12px;
     padding: 8px;
-}
-
-input.error {
-    color: red;
-    border-color: red;
-    outline-color: red; 
 }
